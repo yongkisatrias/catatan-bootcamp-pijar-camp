@@ -38,4 +38,4 @@ let riwayatKeluarNegri = undefined;
 // undefined = nilainya memang tidak ada dari awal
 
 // Cara melihat tipe data
-console.log(typeof Number);
+console.log(typeof umur);
