@@ -1,3 +1,5 @@
+// == INTRO JS 1 == //
+
 // -- Template Literals --
 const fullName = "Yongki Satria Sanjaya";
 const age = 21;

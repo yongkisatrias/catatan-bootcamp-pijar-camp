@@ -1,3 +1,5 @@
+// == INTRO JS 1 == //
+
 // -- Tipe Data --
 // Number (hanya berisi angka)
 let umur = 21;
