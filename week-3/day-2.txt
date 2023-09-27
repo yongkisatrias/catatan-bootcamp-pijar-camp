@@ -1,0 +1,29 @@
+// -- Basic Database -- //
+
+Bahan-bahan:
+Download PostgreSQL https://www.postgresql.org/
+Download TablePlus https://tableplus.com/
+Daftar akun di https://railway.app/
+
+// PSQL //
+~ Instalasi PostgreSQL secara lokal ceklis hanya pada bagian PostgreSQL Server dan Command Line Tools dan biarkan pgAdmin 4 dan Stack Builder
+~ PostgreSQL memiliki port default 5432 dan gunakan password yang mudah di ingat
+~ Untuk mengecek PostgreSQL udah terinstal bisa dicari di windows search aplikasi SQL Shell (psql)
+~ Gunakan SQL Shell (psql) untuk mengconnect ke akun postgres yang sudah dibuat (saat menulis password tidak kelihatan)
+
+~ Buka link https://www.commandprompt.com/education/postgresql-basic-psql-commands/ untuk mengetahui command basic psql
+~ Gunakan command "CREATE DATABASE (nama);" untuk membuat database baru dan jika berhasil akan muncul "CREATE DATABASE"
+~ Gunakan command "\l" untuk melihat apa saja databse yang sudah dibuat
+
+// TablePlus //
+~ Gunakan tanda + untuk mengeconnect-an tableplus dan postgres
+~ Isi form tableplus sesuai apa yang tadi dibuat di postgres
+~ Klik test untuk mengecek, jika muncul "connection is ok" maka langsung kita klik connect
+
+ID/PK = biarkan default/int4
+FK = int8
+string = varchar
+datetime = timestamp
+array = json
+text = text
+int 11 = int8
