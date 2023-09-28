@@ -24,6 +24,6 @@ ID/PK = biarkan default/int4
 FK = int8
 string = varchar
 datetime = timestamp
-array = json
+array = json/jsonb
 text = text
 int 11 = int8
